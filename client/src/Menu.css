@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+    flex-direction: column;
+}
+.request{
+    display: flex;
+    
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    height: 150px;
+    justify-content: space-between;
+    align-items: baseline;
+    overflow: scroll;
+}
+.reqbuttons{
+    height: 20px;
+}

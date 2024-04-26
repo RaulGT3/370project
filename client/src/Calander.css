@@ -1,0 +1,58 @@
+
+.Container{
+    
+    display: flex;
+  
+    flex-wrap: wrap;
+    width: 800px;
+    height: 600px;
+    
+    
+    
+    
+}
+.month-container{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+   
+
+}
+.backbutton{
+    display:none;
+
+
+}
+
+
+.month-container button {
+    width: auto; 
+    
+    height: 40px;
+  
+}
+
+
+.Backbutton{
+    
+    width: 40px;
+    height: 20px;
+}
+.Box{
+    
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 125px;
+    height: 125px;
+    overflow: scroll;
+}
+.Message{
+    overflow: scroll;
+
+}
+.MessageInput{
+    width: 100px;
+    display: none;
+   
+}
