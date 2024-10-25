@@ -1,6 +1,48 @@
 .App{
+ display: flex;
+ justify-content: center;
+ height: 175vh;
+ width: 175vh;
+
+
+    
+    
+}
+.app{
     display: flex;
+    margin-bottom: 400px;
+}
+
+.main{
+    display: flex;
+    border: 5px solid black;
+    
     flex-direction: row;
+    width: 600px;
+    height: 300px;
+    margin-bottom: 400px;
+   
+}
+.components-container {
+    display: flex;
     align-items: center;
     justify-content: center;
+    
+    
+}
+.logout{
+    height: 20px;
+    border-radius: 20px;
+    border: solid black 1px;
+    background-color: white;
+    
+}
+.alert {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

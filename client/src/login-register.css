@@ -1,0 +1,10 @@
+.login-register-container{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.in{
+    border-radius: 4px;
+    border: 1px solid black;
+}
