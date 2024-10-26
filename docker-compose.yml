@@ -1,0 +1,23 @@
+version: '3'
+services:
+  server:
+    build: ./server
+    container_name: server
+    ports:
+      - "5004:5004"
+  client:
+    build: ./client
+    container_name: client
+    ports:
+      - "3001:3001"
+  db:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=23Raul
+      - POSTGRES_DB=Calanderproject
+
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432" 

@@ -53,7 +53,7 @@ export default function LoginAndRegister({setU}) {
     }
     
     const handleLogin = async() => {
-        if(username ==""){
+        if(username ===""){
             return
         }
         const valid = await checkuserandpassword(); 
@@ -74,7 +74,7 @@ export default function LoginAndRegister({setU}) {
     };
 
     const handleRegister  =async() => {
-        if(username ==""){
+        if(username ===""){
             return
         }
         

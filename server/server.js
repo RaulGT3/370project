@@ -16,8 +16,8 @@ server.use((req, res, next) => {
 const pool = new Pool({
   user: 'postgres',
   password: '23Raul',
-  host: 'localhost',
-  port: 3000,
+  host: 'db',
+  port: 5432,
   database: 'Calanderproject'
 });
 

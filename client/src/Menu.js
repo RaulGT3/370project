@@ -193,6 +193,7 @@ export default function Menu({setR}) {
           const response = await fetch(`http://localhost:5004/joins/${currentuser}`);
           
           const joins = await response.json();
+          
 
 
           setjoins(joins)
